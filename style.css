@@ -1,0 +1,95 @@
+.disrupters-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.disrupters-container .box{
+    flex: 1 1 17rem;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(219, 221, 221);
+    border-radius: 0.5rem;
+}
+.disrupters-container .box img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+.disrupters-container .box h4{
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.disrupters-container .box h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.disrupters-container .box span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.disrupters-container .box .details{
+    display: flex;
+    bottom: 1.8rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.disrupters-container .box .details:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .businesses-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.businesses-container .box{
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.businesses-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.businesses-container .box img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+.businesses-container .box h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.businesses-container .box:hover h2{
+    background: var(--main-color);
+    color: var(--bg-color);
+} */
